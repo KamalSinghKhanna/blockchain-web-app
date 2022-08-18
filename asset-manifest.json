@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/blockchain-web-app/static/css/main.4d2e319c.css",
+    "main.js": "/blockchain-web-app/static/js/main.c3d70a43.js",
+    "static/js/787.612e0608.chunk.js": "/blockchain-web-app/static/js/787.612e0608.chunk.js",
+    "static/media/header-img.jpg": "/blockchain-web-app/static/media/header-img.aba1e2c871628a36bbc1.jpg",
+    "static/media/global-network.png": "/blockchain-web-app/static/media/global-network.e68595737e4ca225bceb.png",
+    "static/media/group.png": "/blockchain-web-app/static/media/group.affcfe486277b2944566.png",
+    "static/media/blockchain.png": "/blockchain-web-app/static/media/blockchain.116c6c7461a1f91be10f.png",
+    "static/media/revicons.eot": "/blockchain-web-app/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/blockchain-web-app/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/blockchain-web-app/static/media/revicons.e8746a624ed098489406.woff",
+    "index.html": "/blockchain-web-app/index.html",
+    "main.4d2e319c.css.map": "/blockchain-web-app/static/css/main.4d2e319c.css.map",
+    "main.c3d70a43.js.map": "/blockchain-web-app/static/js/main.c3d70a43.js.map",
+    "787.612e0608.chunk.js.map": "/blockchain-web-app/static/js/787.612e0608.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d2e319c.css",
+    "static/js/main.c3d70a43.js"
+  ]
+}
