@@ -1,0 +1,131 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.left-h{
+    background: url(../../asset/images/header-img.jpg);
+    background-position: center; /* Center the image */ 
+    background-repeat: no-repeat; /* Do not repeat the image */ 
+    background-size:cover;
+    padding:14rem 2rem;
+    padding-top: 1.5rem;
+    flex: 3;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.right-h{
+    flex: 1;
+    position: relative;
+    text-align: center;
+    background-color: #0D102c;
+}
+.slider{
+    padding: 5rem 3rem;
+}
+
+.header-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-transform: uppercase;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: white;
+    text-overflow: inherit;
+}
+
+.header-text>div:nth-of-type(3){
+    font-size: 1.3rem;
+    font-weight: 200;
+    text-transform: none;
+    letter-spacing: 1px;
+    width: 75%;
+}
+
+
+.header-buttonns{
+    display: flex;
+    gap: 1rem;
+    font-weight: normal;
+}
+
+.header-buttonns>:nth-child(1){
+    color: black;
+    font-size: 16px;
+    border-radius: 50px 50px 50px 50px;
+    padding: 16px 26px 16px 26px;
+    width: 10rem;
+}
+.header-buttonns>:nth-child(1):hover{
+    color: white;
+    background-color: #A967FF;
+}
+
+.header-buttonns>:nth-child(2){
+    color: white;
+    background-color:transparent;
+    width: 8rem;
+    
+}
+
+.header-buttonns>:nth-child(2):hover{
+    border: 2px solid #A967FF;
+}
+
+
+.header-image{
+    position: absolute;
+    top: 10rem;
+    right: 8rem;
+    width: 23rem;
+}
+
+.item .brand-img{
+    width: 173px;
+    height: 51px;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        flex-direction: column;
+    }
+    .header-text{
+        font-size: xx-large;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-text > div:nth-of-type(3){
+        font-size: small;
+        font-weight: 200;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    .header-buttonns{
+        justify-content: center;
+    }
+   
+    .right-h{
+        position: relative;
+    }
+
+    .header-image{
+        position: relative;
+        width: 15rem;
+        left: 7rem;
+        top: 4rem;
+        align-self: center;
+    }
+    .slider{
+        padding: 5rem 0;
+    }
+    .header-buttonns>:nth-child(1){
+        padding: 1rem 0.5rem;
+    }
+  
+}

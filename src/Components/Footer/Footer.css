@@ -1,0 +1,39 @@
+.footer{
+    padding: 2rem 5rem;
+    background-color: #0d102c;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+   
+}
+
+.footer-items{
+    display: flex;
+}
+.footer-logo{
+    flex: 1;
+}
+.footer-menu1{
+    flex: 1.3;
+}
+.footer-menu2{
+    flex: 1;
+}
+.footer-menu1>ul>li:hover{
+    color: #A967FF;
+}
+.footer-menu2>ul>li:hover{
+    color: #A967FF;
+}
+
+.footer>span{
+    text-align: center;
+    color: gray;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-items{
+        flex-direction: column;
+    }
+
+}

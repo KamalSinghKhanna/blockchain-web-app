@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  background: url(https://templatekit.jegtheme.com/acco/wp-content/uploads/sites/50/2021/02/08-scaled-e1614740007997.jpg);
+  justify-content: space-between;
+  padding: 2rem 4rem;
+}
+
+.logo {
+  width: 5rem;
+  height: 2rem;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-menu > li:hover {
+  cursor: pointer;
+  color: #121638;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar > :nth-child(2) {
+    position: fixed;
+    right: 2rem;
+    z-index: 99;
+    cursor: pointer;
+  }
+  .navbar-menu {
+    flex-direction: column;
+    /* background-color: var(--appColor); */
+    padding: 2rem;
+    background-color: #121638;
+  }
+  .navbar-menu > li:hover {
+    cursor: pointer;
+    color: #f4f5fa;
+    font-weight: bold;
+  }
+}
