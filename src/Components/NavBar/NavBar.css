@@ -2,7 +2,8 @@
   display: flex;
   background: url(https://templatekit.jegtheme.com/acco/wp-content/uploads/sites/50/2021/02/08-scaled-e1614740007997.jpg);
   justify-content: space-between;
-  padding: 2rem 4rem;
+  padding: 0.5rem;
+  align-items: center;
 }
 
 .logo {
